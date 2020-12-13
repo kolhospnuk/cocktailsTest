@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from "react-bootstrap";
+import "./app.css";
 
 import Header from '../header/header'
 import TestList from "../testList/testList";
@@ -7,10 +7,10 @@ import TestList from "../testList/testList";
 const App = () => {
 
     return (
-        <Container>
+        <div className="app">
             <Header/>
             <TestList/>
-        </Container>
+        </div>
     )
 }
 
